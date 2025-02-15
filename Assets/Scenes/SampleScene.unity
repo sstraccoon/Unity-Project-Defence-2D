@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028356, g: 0.2257137, b: 0.3069222, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 107668383}
   - component: {fileID: 107668382}
   m_Layer: 5
-  m_Name: Level
+  m_Name: MoveSpeed_Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 186024396}
   - component: {fileID: 186024395}
   m_Layer: 5
-  m_Name: Gold
+  m_Name: MoveSpeed_Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -792,7 +792,7 @@ GameObject:
   - component: {fileID: 395946529}
   - component: {fileID: 395946528}
   m_Layer: 5
-  m_Name: Gold
+  m_Name: DEF_Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -927,9 +927,8 @@ GameObject:
   - component: {fileID: 427736134}
   - component: {fileID: 427736133}
   - component: {fileID: 427736132}
-  - component: {fileID: 427736135}
   m_Layer: 5
-  m_Name: Button
+  m_Name: GunPower_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1038,20 +1037,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427736130}
   m_CullTransparentMesh: 1
---- !u!114 &427736135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427736130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80eface277784a4fba32ddc3c9b6f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reduceScale: 0.5
-  OriginalScale: 1
 --- !u!1 &448918089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,9 +1358,8 @@ GameObject:
   - component: {fileID: 477840015}
   - component: {fileID: 477840014}
   - component: {fileID: 477840013}
-  - component: {fileID: 477840016}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ATK_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1484,20 +1468,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 477840011}
   m_CullTransparentMesh: 1
---- !u!114 &477840016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477840011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80eface277784a4fba32ddc3c9b6f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reduceScale: 0.5
-  OriginalScale: 1
 --- !u!1 &494684272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,7 +1832,7 @@ GameObject:
   - component: {fileID: 604648380}
   - component: {fileID: 604648379}
   m_Layer: 5
-  m_Name: Level
+  m_Name: Gold_Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1997,7 +1967,7 @@ GameObject:
   - component: {fileID: 609040288}
   - component: {fileID: 609040287}
   m_Layer: 5
-  m_Name: Level
+  m_Name: GunPower_Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2129,9 +2099,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 625264543}
-  - component: {fileID: 625264544}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2167,20 +2136,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &625264544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 625264542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80eface277784a4fba32ddc3c9b6f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reduceScale: 0.5
-  OriginalScale: 1
 --- !u!1 &657587800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2232,9 +2187,8 @@ GameObject:
   - component: {fileID: 665517957}
   - component: {fileID: 665517956}
   - component: {fileID: 665517955}
-  - component: {fileID: 665517958}
   m_Layer: 5
-  m_Name: Button
+  m_Name: AttackSpeedBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2343,20 +2297,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665517953}
   m_CullTransparentMesh: 1
---- !u!114 &665517958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665517953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80eface277784a4fba32ddc3c9b6f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reduceScale: 0.5
-  OriginalScale: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2463,7 +2403,7 @@ GameObject:
   - component: {fileID: 714940424}
   - component: {fileID: 714940423}
   m_Layer: 5
-  m_Name: Level
+  m_Name: Sight_Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2598,9 +2538,8 @@ GameObject:
   - component: {fileID: 720732852}
   - component: {fileID: 720732851}
   - component: {fileID: 720732850}
-  - component: {fileID: 720732853}
   m_Layer: 5
-  m_Name: Button
+  m_Name: DEF_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2709,20 +2648,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720732848}
   m_CullTransparentMesh: 1
---- !u!114 &720732853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720732848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80eface277784a4fba32ddc3c9b6f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reduceScale: 0.5
-  OriginalScale: 1
 --- !u!1 &723682409
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,7 +2660,7 @@ GameObject:
   - component: {fileID: 723682412}
   - component: {fileID: 723682411}
   m_Layer: 5
-  m_Name: Level
+  m_Name: DEF_Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3089,9 +3014,8 @@ GameObject:
   - component: {fileID: 977237358}
   - component: {fileID: 977237357}
   - component: {fileID: 977237356}
-  - component: {fileID: 977237359}
   m_Layer: 5
-  m_Name: Button
+  m_Name: CoolTimeBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3200,20 +3124,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977237354}
   m_CullTransparentMesh: 1
---- !u!114 &977237359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 977237354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80eface277784a4fba32ddc3c9b6f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reduceScale: 0.5
-  OriginalScale: 1
 --- !u!1 &1019347049
 GameObject:
   m_ObjectHideFlags: 0
@@ -3226,9 +3136,8 @@ GameObject:
   - component: {fileID: 1019347053}
   - component: {fileID: 1019347052}
   - component: {fileID: 1019347051}
-  - component: {fileID: 1019347054}
   m_Layer: 5
-  m_Name: Button
+  m_Name: HP_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3337,20 +3246,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019347049}
   m_CullTransparentMesh: 1
---- !u!114 &1019347054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1019347049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80eface277784a4fba32ddc3c9b6f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reduceScale: 0.5
-  OriginalScale: 1
 --- !u!1 &1042265502
 GameObject:
   m_ObjectHideFlags: 0
@@ -3363,7 +3258,7 @@ GameObject:
   - component: {fileID: 1042265505}
   - component: {fileID: 1042265504}
   m_Layer: 5
-  m_Name: Gold
+  m_Name: Gold_Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3769,9 +3664,8 @@ GameObject:
   - component: {fileID: 1130430359}
   - component: {fileID: 1130430358}
   - component: {fileID: 1130430357}
-  - component: {fileID: 1130430360}
   m_Layer: 5
-  m_Name: Button
+  m_Name: CallBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3880,20 +3774,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130430355}
   m_CullTransparentMesh: 1
---- !u!114 &1130430360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130430355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80eface277784a4fba32ddc3c9b6f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reduceScale: 0.5
-  OriginalScale: 1
 --- !u!1 &1175488641
 GameObject:
   m_ObjectHideFlags: 0
@@ -4254,7 +4134,7 @@ GameObject:
   - component: {fileID: 1267897139}
   - component: {fileID: 1267897138}
   m_Layer: 5
-  m_Name: Gold
+  m_Name: GunPower_Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4389,7 +4269,7 @@ GameObject:
   - component: {fileID: 1331222278}
   - component: {fileID: 1331222277}
   m_Layer: 5
-  m_Name: Gold
+  m_Name: ATK_Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4524,7 +4404,7 @@ GameObject:
   - component: {fileID: 1389594367}
   - component: {fileID: 1389594366}
   m_Layer: 5
-  m_Name: Gold
+  m_Name: Sight_Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4659,7 +4539,7 @@ GameObject:
   - component: {fileID: 1520318238}
   - component: {fileID: 1520318237}
   m_Layer: 5
-  m_Name: Level
+  m_Name: ATK_Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5239,9 +5119,8 @@ GameObject:
   - component: {fileID: 1690375199}
   - component: {fileID: 1690375198}
   - component: {fileID: 1690375197}
-  - component: {fileID: 1690375200}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Gold_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5350,20 +5229,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690375195}
   m_CullTransparentMesh: 1
---- !u!114 &1690375200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1690375195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80eface277784a4fba32ddc3c9b6f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reduceScale: 0.5
-  OriginalScale: 1
 --- !u!1 &1703162884
 GameObject:
   m_ObjectHideFlags: 0
@@ -5646,7 +5511,7 @@ GameObject:
   - component: {fileID: 1811427806}
   - component: {fileID: 1811427805}
   m_Layer: 5
-  m_Name: Level
+  m_Name: HP_Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5781,9 +5646,8 @@ GameObject:
   - component: {fileID: 1861971241}
   - component: {fileID: 1861971240}
   - component: {fileID: 1861971239}
-  - component: {fileID: 1861971242}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Sight_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5892,20 +5756,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861971237}
   m_CullTransparentMesh: 1
---- !u!114 &1861971242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1861971237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80eface277784a4fba32ddc3c9b6f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reduceScale: 0.5
-  OriginalScale: 1
 --- !u!1 &1885709980
 GameObject:
   m_ObjectHideFlags: 0
@@ -5918,7 +5768,7 @@ GameObject:
   - component: {fileID: 1885709983}
   - component: {fileID: 1885709982}
   m_Layer: 5
-  m_Name: Gold
+  m_Name: HP_Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6092,9 +5942,8 @@ GameObject:
   - component: {fileID: 2031683945}
   - component: {fileID: 2031683944}
   - component: {fileID: 2031683943}
-  - component: {fileID: 2031683946}
   m_Layer: 5
-  m_Name: Button
+  m_Name: MoveSpeed_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6203,20 +6052,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031683941}
   m_CullTransparentMesh: 1
---- !u!114 &2031683946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2031683941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80eface277784a4fba32ddc3c9b6f7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reduceScale: 0.5
-  OriginalScale: 1
 --- !u!1 &2120996716
 GameObject:
   m_ObjectHideFlags: 0
