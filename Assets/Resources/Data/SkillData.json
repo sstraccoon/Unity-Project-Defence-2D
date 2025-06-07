@@ -1,0 +1,74 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "name": "Sight",
+      "maxlevel": "10",
+      "startprice": "1000",
+      "increasedcost": "1.5"
+    },
+    {
+      "id": "2",
+      "name": "Discount",
+      "maxlevel": "10",
+      "startprice": "1000",
+      "increasedcost": "1.5"
+    },
+    {
+      "id": "3",
+      "name": "ATK",
+      "maxlevel": "10",
+      "startprice": "1000",
+      "increasedcost": "1.5"
+    },
+    {
+      "id": "4",
+      "name": "DEF",
+      "maxlevel": "10",
+      "startprice": "1000",
+      "increasedcost": "1.5"
+    },
+    {
+      "id": "5",
+      "name": "MoveSpeed",
+      "maxlevel": "10",
+      "startprice": "1000",
+      "increasedcost": "1.5"
+    },
+    {
+      "id": "6",
+      "name": "GunPower",
+      "maxlevel": "10",
+      "startprice": "1000",
+      "increasedcost": "1.5"
+    },
+    {
+      "id": "7",
+      "name": "HP",
+      "maxlevel": "10",
+      "startprice": "1000",
+      "increasedcost": "1.5"
+    },
+    {
+      "id": "8",
+      "name": "AttackSpeed",
+      "maxlevel": "10",
+      "startprice": "1000",
+      "increasedcost": "1.5"
+    },
+    {
+      "id": "9",
+      "name": "CoolTime",
+      "maxlevel": "10",
+      "startprice": "1000",
+      "increasedcost": "1.5"
+    },
+    {
+      "id": "10",
+      "name": "Call",
+      "maxlevel": "10",
+      "startprice": "1000",
+      "increasedcost": "1.5"
+    }
+  ]
+}

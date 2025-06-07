@@ -65,12 +65,14 @@ public class UIManager
         return Util.GetOrAddComponent<T>(go);
     }
 
-    public T ShowSceneUI<T>(string name = null) where T : UI_Scene
+    public T ShowSceneUI<T>(string path = "") where T : UI_Scene
     {
+        string name = typeof(T).Name;
+
         if (string.IsNullOrEmpty(name))
             name = typeof(T).Name;
 
-        GameObject go = Managers.Resource.Instantiate($"UI/Scene/{name}");
+        GameObject go = Managers.Resource.Instantiate($"UI/Scene/{path}{name}");
         T sceneUI = Util.GetOrAddComponent<T>(go);
         _sceneUI = sceneUI;
 
